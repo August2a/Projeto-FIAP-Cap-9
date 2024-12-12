@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Fintech</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+</head>
+<body>
+    <main class="container my-5">
+        <nav class="border rounded navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Fintech</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../index.html">Sair</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="border rounded shadow-sm p-4 bg-light">
+            <h2 class="text-center">Bem-vindo ao seu Dashboard!</h2>
+
+            <div class="row mt-4">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Resumo Financeiro</h5>
+                            <p class="card-text"><strong>Rendimento Total:</strong> R$ 5.000,00</p>
+                            <p class="card-text"><strong>Despesas Totais:</strong> R$ 2.500,00</p>
+                            <p class="card-text"><strong>Saldo:</strong> R$ 2.500,00</p>
+                            <a href="#detalhesFinanceiros" class="btn btn-link">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Atividades Recentes</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item">Compra - R$ 100,00 - Supermercado</li>
+                                <li class="list-group-item">Receita - R$ 1.000,00 - Salário</li>
+                                <li class="list-group-item">Compra - R$ 50,00 - Café</li>
+                            </ul>
+                            <a href="#historico" class="btn btn-link">Ver Histórico</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Gráfico de Despesas</h5>
+                            <img src="../imgs/graph-4737109_1920.jpg" class="d-block w-100 rounded" style=" height: 400px; object-fit: cover;" alt="Gráfico de Despesas">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-dollar-sign fa-3x mb-3" style="color: #007bff;"></i>
+                            <h5 class="card-title">Planeje suas Finanças</h5>
+                            <p class="card-text">Crie orçamentos e planos de gastos para um futuro financeiro seguro.</p>
+                            <a href="#planejamento" class="btn btn-primary">Começar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-chart-line fa-3x mb-3" style="color: #28a745;"></i>
+                            <h5 class="card-title">Monitore seus Investimentos</h5>
+                            <p class="card-text">Acompanhe o desempenho de seus investimentos e faça ajustes quando necessário.</p>
+                            <a href="#investimentos" class="btn btn-success">Acompanhar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-graduation-cap fa-3x mb-3" style="color: #17a2b8;"></i>
+                            <h5 class="card-title">Educação Financeira</h5>
+                            <p class="card-text">Acesso a materiais e cursos para melhorar sua alfabetização financeira.</p>
+                            <a href="#educacao" class="btn btn-info">Aprender Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2023 Fintech. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/all.min.js"></script>
+</body>
+</html>
